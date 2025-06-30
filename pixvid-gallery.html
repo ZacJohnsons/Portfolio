@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PixVid Gallery Project - Opolot Isaac</title>
+    <link rel="stylesheet" href="gallery.css" />
+    <!-- Favicon link -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="gallery-header">
+        <h1>PixVid Multimedia Gallery System</h1>
+        <p>
+          A comprehensive multimedia gallery web system that allows users to
+          upload, organize, and view images and videos with advanced features
+          like captions, timestamps, and optimized media rendering.
+        </p>
+        <a href="index.html" class="back-btn">
+          <i class="fas fa-arrow-left"></i>
+          Back to Portfolio
+        </a>
+      </div>
+
+      <!-- Project Info -->
+      <div class="project-info">
+        <h2>Project Overview</h2>
+        <p>
+          PixVid Gallery is a robust multimedia management system designed to
+          handle large-scale image and video uploads with intelligent
+          organization features. The system provides users with an intuitive
+          interface to manage their media collections while ensuring optimal
+          performance through advanced compression and caching techniques.
+        </p>
+
+        <div class="project-meta">
+          <div class="meta-section">
+            <h3>Technologies Used</h3>
+            <div class="tech-tags">
+              <span class="tag">PHP</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS</span>
+              <span class="tag">FFmpeg</span>
+            </div>
+          </div>
+
+          <div class="meta-section">
+            <h3>Key Features</h3>
+            <ul style="color: #64748b; margin-top: 0.5rem">
+              <li>Drag & drop file upload interface</li>
+              <li>Automatic image/video compression</li>
+              <li>Album and collection organization</li>
+              <li>Advanced search and filtering</li>
+              <li>Responsive gallery layouts</li>
+              <li>Media metadata management</li>
+            </ul>
+          </div>
+
+          <div class="meta-section">
+            <h3>Challenges Overcome</h3>
+            <p style="color: #64748b; margin-top: 0.5rem">
+              Handling large file uploads efficiently, implementing progressive
+              image loading, optimizing database queries for media retrieval,
+              and ensuring cross-browser compatibility for video playback.
+            </p>
+          </div>
+
+          <div class="meta-section">
+            <h3>What I Learned</h3>
+            <p style="color: #64748b; margin-top: 0.5rem">
+              Media optimization techniques, file system architecture, advanced
+              JavaScript for UI interactions, database indexing strategies, and
+              implementing secure file upload validation.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+        <!-- Database Design -->
+        <div class="gallery-item">
+          <img
+            src="database1.png"
+            alt="PixVid Database Schema"
+          />
+          <div class="gallery-item-content">
+            <h3>Database Schema</h3>
+            <p>
+              Optimized database design for media metadata, user collections,
+              and efficient query performance with proper indexing strategies.
+            </p>
+          </div>
+        </div>
+
+        <!-- Upload Interface -->
+        <div class="gallery-item">
+          <img
+            src="upload.png"
+            alt="File Upload Interface"
+          />
+          <div class="gallery-item-content">
+            <h3>Upload Interface</h3>
+            <p>
+              Modern drag-and-drop upload interface with progress tracking,
+              batch processing, and real-time validation feedback.
+            </p>
+          </div>
+        </div>
+
+        <!-- Gallery Layout -->
+        <div class="gallery-item">
+          <img
+            src="admin.png"
+            alt="Gallery Layout Design"
+          />
+          <div class="gallery-item-content">
+            <h3>Admin Dashboard</h3>
+            <p>
+              The admin dashboard provides cards, graphs and charts to provide statistical information
+              about the system performance.
+            </p>
+          </div>
+        </div>
+
+        <!-- Media Processing -->
+        <div class="gallery-item">
+          <img
+            src="search.png"
+            alt="Media Processing Pipeline"
+          />
+          <div class="gallery-item-content">
+            <h3>Media Search functionality</h3>
+            <p>
+              This section allows the client to search for the specific images stored in the databases of a particular 
+              date using the caption.
+            </p>
+          </div>
+        </div>
+
+        <!-- User Dashboard -->
+        <div class="gallery-item">
+          <img
+            src="userdashboard.png"
+            alt="User Dashboard Interface"
+          />
+          <div class="gallery-item-content">
+            <h3>User Dashboard</h3>
+            <p>
+              Comprehensive user dashboard for managing collections, viewing
+              analytics, and organizing media with advanced filtering options.
+            </p>
+          </div>
+        </div>
+
+        <!-- Video Player -->
+        <div class="gallery-item">
+          <img src="login.png" alt="login and register" />
+          <div class="gallery-item-content">
+            <h3>Login and Register</h3>
+            <p>
+              The login allows the client and admin access the system. the login redirects both client and admin to 
+              their default dashboard with the help of role and queing on the tables admin and users
+            </p>
+          </div>
+        </div>
+
+        <!-- Search System -->
+        <div class="gallery-item">
+          <img
+            src="search.png"
+            alt="Advanced Search System"
+          />
+          <div class="gallery-item-content">
+            <h3>Advanced Search</h3>
+            <p>
+              Intelligent search system with tag-based filtering, date ranges,
+              file type classification, and metadata-driven organization.
+            </p>
+          </div>
+        </div>
+
+        <!-- Mobile Interface -->
+        <div class="gallery-item">
+          <img
+            src="tablesearch.png"
+            alt="Mobile Interface Design"
+          />
+          <div class="gallery-item-content">
+            <h3>Table Search</h3>
+            <p>
+              The table search functionality allows the admin to filter the client, and media with ease 
+              without taking long scrolling throw the table.
+            </p>
+          </div>
+        </div>
+
+        <!-- Security Features -->
+        <div class="gallery-item">
+          <img
+            src="profile.png"
+            alt="Security Implementation"
+          />
+          <div class="gallery-item-content">
+            <h3>Profile</h3>
+            <p>
+              Profile provides a secure section for the client and admin to change their profile pics 
+              and also change on the information like password, username etc.
+            </p>
+          </div>
+        </div>
+
+        <!-- Analytics Dashboard -->
+        <div class="gallery-item">
+          <img
+            src="tables.png"
+            alt="Analytics and Reporting"
+          />
+          <div class="gallery-item-content">
+            <h3>Tables</h3>
+            <p>
+              This provides alist of fields and values for the clients, media and other items in the database fetched.
+            </p>
+          </div>
+        </div>
+
+        <!-- forgot password Dashboard -->
+        <div class="gallery-item">
+          <img
+            src="reset.png"
+            alt="Forgot Password"
+          />
+          <div class="gallery-item-content">
+            <h3>Tables</h3>
+            <p>
+              This section allows the client and admin to successfylly reset their passwords woth ease
+              a token link is sent to the clients email that prompts the user to reset the password.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="gallery.js"></script>
+  </body>
+</html>
