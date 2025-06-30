@@ -95,7 +95,7 @@ function startProjectAutoplay() {
 
     slides[currentProjectIndex].classList.add("active");
     dots[currentProjectIndex].classList.add("active");
-  }, 5000); // Change every 5 seconds
+  }, 10000); // Change every 5 seconds
 }
 
 // Smooth scrolling for anchor links
