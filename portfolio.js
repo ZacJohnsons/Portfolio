@@ -255,9 +255,9 @@ window.addEventListener("load", function () {
 // Console welcome message
 console.log(`
 🚀 Welcome to Opolot Isaac's Portfolio!
-📧 Contact: your.email@example.com
-💼 LinkedIn: https://linkedin.com/in/yourprofile
-🌐 GitHub: https://github.com/yourusername
+📧 Contact: isaac.opolot2000@gmail.com / +256787638998
+💼 LinkedIn: https://github.com/Joasac
+🌐 GitHub: https://www.linkedin.com/in/opolot-isaac-166801255/
 
 Thanks for checking out the code! 
 Built with vanilla HTML, CSS, and JavaScript.
