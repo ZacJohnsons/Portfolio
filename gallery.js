@@ -307,3 +307,4 @@ function debounce(func, wait) {
 // Export for use in individual gallery pages
 window.ProjectGallery = ProjectGallery;
 window.TouchHandler = TouchHandler;
+
