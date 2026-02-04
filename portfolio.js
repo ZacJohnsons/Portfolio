@@ -262,3 +262,4 @@ console.log(`
 Thanks for checking out the code! 
 Built with vanilla HTML, CSS, and JavaScript.
 `);
+
